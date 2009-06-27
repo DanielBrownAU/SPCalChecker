@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+    <FieldType>
+        <Field Name="TypeName">ChkAvail</Field>
+        <Field Name="ParentType">MultiColumn</Field>
+        <Field Name="TypeDisplayName">SharePoint Check Calendar Availability Custom Column</Field>
+        <Field Name="TypeShortDescription">SharePoint Check Calendar Availability Custom Column</Field>
+        <Field Name="UserCreatable">TRUE</Field>
+        <Field Name="FieldTypeClass">DanielBrown.SharePoint.CustomFields.CheckAvailabilityField, CheckAvailabilityField, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ef1c71fdce231175</Field>
+        <RenderPattern Name="DisplayPattern">
+            <Switch>
+                <Expr>
+                    <Column />
+                </Expr>
+                <Case Value="" />
+                <Default>
+                    <Column SubColumnNumber="0" HTMLEncode="TRUE" />
+                </Default>
+            </Switch>
+        </RenderPattern>
+    </FieldType>
+</FieldTypes>
+

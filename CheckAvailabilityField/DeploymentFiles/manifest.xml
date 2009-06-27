@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Manifest created STSDEV utility at 28/06/2009 12:49:11 AM-->
+<Solution SolutionId="5E72DBAE-2ADC-4786-BB78-4C90A0D4DF4D" ResetWebServer="True" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--Feature Manifest files-->
+  <FeatureManifests>
+    <FeatureManifest Location="CheckAvailabilityField\feature.xml" />
+  </FeatureManifests>
+  <!--TEMPLATE files-->
+  <TemplateFiles>
+    <TemplateFile Location="IMAGES\CheckAvailabilityField\AfricanPith32.gif" />
+    <TemplateFile Location="XML\fldtypes_ChkAvail.xml" />
+  </TemplateFiles>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="CheckAvailabilityField.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by STSDEV at 28/06/2009 12:44:58 AM-->
+<Solution>
+  <SolutionId>5E72DBAE-2ADC-4786-BB78-4C90A0D4DF4D</SolutionId>
+  <SolutionName>CheckAvailabilityField</SolutionName>
+  <ResetWebServer>True</ResetWebServer>
+  <AssemblyDeployment>True</AssemblyDeployment>
+  <SafeControlSettings>False</SafeControlSettings>
+  <CasPermissions>False</CasPermissions>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="CheckAvailabilityField.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="CheckAvailabilityField, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ef1c71fdce231175" Namespace="CheckAvailabilityField" TypeName="*" Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+</Solution>

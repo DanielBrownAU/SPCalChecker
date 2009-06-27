@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by STSDEV at 28/06/2009 12:44:58 AM-->
+<Feature
+  Id="5A32904C-4431-4863-8F05-BF78BBEC0F4C"
+  Title="SharePoint Check Calendar Availability Custom Column"
+  Description="Allows a user to check for duplicate bookings in a calendar. (Daniel Brown - http://www.danielbrown.id.au/)"
+  Version="1.0.0.0"
+  Scope="Farm"
+  Hidden="false"
+  ImageUrl="CheckAvailabilityField\AfricanPith32.gif"
+  ReceiverAssembly="CheckAvailabilityField, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ef1c71fdce231175"
+  ReceiverClass="CheckAvailabilityField.FeatureReceiver" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest
+      Location="elements.xml" />
+  </ElementManifests>
+</Feature>
